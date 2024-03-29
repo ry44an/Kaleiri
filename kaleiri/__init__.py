@@ -1,1 +1,1 @@
-from main import iterate_characters
+from main import bruteforce_hash
