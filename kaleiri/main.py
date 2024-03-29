@@ -30,7 +30,7 @@ def hash_text(text, algorithm):
     hash_object.update(text.encode())
     return hash_object.hexdigest()
 
-def iterate_characters(hash, algorithm):
+def bruteforce_hash(hash, algorithm):
     characters = string.ascii_letters + string.digits + string.punctuation
     
     while True:
